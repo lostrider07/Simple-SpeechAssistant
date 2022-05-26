@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>Adding a calendar event</title>
+    <script src="index.css"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <main class="w-50 mx-auto">
+      <form class="bg-light border rounded mx-auto mt-5 p-3">
+        <h1 class="h2 text-center mt-2 mb-4">Calendar Event</h1>
+        <div class="form-group">
+          <label for="date">What is the Date for this event?</label>
+          <input type="text" class="form-control" id="date" name="date" />
+        </div>
+
+        <button id="date_start">Start</button>
+        <button id="date_end">Stop</button>
+        <button id="date_utter">Speak up</button>
+        <br /><br />
+
+        <div class="form-group">
+          <label for="start_time">What is the Start Time?</label>
+          <input
+            type="text"
+            class="form-control"
+            id="start_time"
+            name="start_time"
+          />
+        </div>
+
+        <button id="start_time_1">Start</button>
+        <button id="start_time_2">Stop</button>
+        <button id="start_time_utter">Speak up</button>
+
+        <br /><br />
+
+        <div class="form-group">
+          <label for="end_time">What is the End Time?</label>
+          <input
+            type="text"
+            class="form-control"
+            id="end_time"
+            name="end_time"
+          />
+        </div>
+
+        <button id="end_time_1">Start</button>
+        <button id="end_time_2">Stop</button>
+        <button id="end_time_utter">Speak up</button>
+        <br /><br />
+
+        <div class="form-group mt-4">
+          <input
+            type="submit"
+            class="btn btn-primary btn-block"
+            value="Submit / Speak"
+          />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

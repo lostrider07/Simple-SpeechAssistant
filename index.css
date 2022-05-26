@@ -1,0 +1,17 @@
+body {
+	background-color: #474747;
+}
+
+h1 {
+	font-weight: Bold;
+}
+
+label {
+	font-weight: Bold;
+}
+
+button {
+	background-color: #add8e6;
+	text-align: center;
+}
+
